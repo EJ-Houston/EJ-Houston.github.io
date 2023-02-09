@@ -303,7 +303,7 @@ td.right {
 	background: rgba(1, 1, 1, 0.5) !important;
 	color: #000000 !important;
 	border: 1px solid #000000 !important;
-	border-radius: 0px !important
+	border-radius: 25px !important
 }
 
 /* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
@@ -312,13 +312,13 @@ td.right {
 div.left {
 	background: rgba(1, 1, 1, 0.5);
 	border: none;
-	border-radius: 0px !important
+	border-radius: 25px !important
 }
 
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: rgba(1, 1, 1, 0.5);
+	background: #64734D;
         border-radius: 0px
 }
 
@@ -549,23 +549,27 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 /* CAVE / MOUND IMAGES */
 
 div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('IMAGE URL') !important
+	content: url('https://imgur.com/saDhlRz.gif');
 }
 
-a[href$="CAVE ID"]>div.cave-grid>img {
-	content: url('IMAGE URL') !important
+a[href$="340759"]>div.cave-grid>img {
+	content: url('https://imgur.com/1F9nmwj.gif')
 }
 
-a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('IMAGE URL') !important
+a[href$="create-cave.php"]>div.cave-grid>img /* Empty Cave Slot */ {
+	content: url('https://imgur.com/1F9nmwj.gif')
 }
 
-a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
-	content: url('IMAGE URL') !important
+a[href$="lionoverview.php?id=414436"]>div.cave-grid>img /* Pride Overview */ {
+	content: url('https://imgur.com/M6EOhjY.gif')
+}
+
+a[href$="unsorted.php?id=414436"]>div.cave-grid>img /* Unsorted */ {
+	content: url('https://imgur.com/fc9igfT.gif')
 }
 
 .mound-grid img /* Mound(s) */ {
-	background: url("IMAGE URL");
+	background: url("");
 	width: 0;
 	height: 0;
 	padding-top: 80px;
