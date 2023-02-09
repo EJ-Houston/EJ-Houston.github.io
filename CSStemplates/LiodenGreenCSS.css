@@ -153,7 +153,7 @@ h1 {
 /* MEDIUM HEADER */
 
 h2 {
-	color: #000000;
+	color: #F3F3F3;
 	font-size: 24px;
 	text-align: center
 }
@@ -162,7 +162,7 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #000000 !important;
+	color: #F3F3F3 !important;
 	font-size: 14px !important
 }
 
@@ -194,7 +194,7 @@ h3 {
 .progress-bar {
 	background: rgba(1, 1, 1, 0.5);
 	color: #F3F3F3 !important;
-	border-radius: 0px !important
+	border-radius: 25px !important
 }
 
 /* ENERGY BAR TEXT */
@@ -206,24 +206,24 @@ h3 {
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
 	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
+        color: #F3F3F3 !important;
 	border: none !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
 	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
+        color: #F3F3F3 !important;
 	border: none !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
 	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
+        color: #F3F3F3 !important;
 	border: none !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #000000 !important;
+	color: #F3F3F3 !important;
 }
 
 div#chatMessageContainer {
@@ -232,7 +232,7 @@ div#chatMessageContainer {
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
+        color: #F3F3F3 !important;
 	border: none !important
 }
 
@@ -245,7 +245,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	background: rgba(1, 1, 1, 0.5);
 	border: none !important;
 	border-collapse: separate;
-	border-radius: 0px
+	border-radius: 25px
 }
 
 
@@ -256,7 +256,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 th {
 	background: rgba(1, 1, 1, 0.5) !important;
 	color: #000000 !important;
-	border-radius: 0px
+	border-radius: 25px
 }
 
 td.bottom a {
@@ -266,9 +266,9 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: #435944 !important;
-        color: #17261E;
-	border-radius: 0px
+	background: rgba(155, 226, 242, 0.6) !important;
+        color: #2e2a2b;
+	border-radius: 25px
 }
 
 
@@ -276,11 +276,11 @@ td.bottom a {
 
 .inner-table .right {
 	background: none;
-	border-radius: 0px !important
+	border-radius: 25px !important
 }
 
 td.right {
-	border-radius: 0px !important
+	border-radius: 25px !important
 }
 
 /* IGNORE */
@@ -301,7 +301,7 @@ td.right {
 
 .feature {
 	background: rgba(1, 1, 1, 0.5) !important;
-	color: #fff !important;
+	color: #000000 !important;
 	border: 1px solid #000000 !important;
 	border-radius: 0px !important
 }
@@ -319,7 +319,7 @@ div.left {
 
 .table .left {
 	background: rgba(1, 1, 1, 0.5);
-        border-radius: 25px
+        border-radius: 0px
 }
 
 /* Color behind the content of the elements listed above */
@@ -327,10 +327,10 @@ div.left {
 input,
 select,
 textarea {
-	background: #17261E !important;
+	background: rgba(1, 1, 1, 0.5) !important;
 	border: none !important;
-	border-radius: 25px !important;
-	color: #F3F3F3 !important;
+	border-radius: 0px !important;
+	color: #000000 !important;
 	box-shadow: none !important;
 	text-shadow: none !important
 }
@@ -339,14 +339,14 @@ textarea {
 
 .item-header {
 	background: rgba(1, 1, 1, 0.5) !important;
-	color: #F3F3F3  !important;
-	border-radius: 25px !important;
+	color: #000000  !important;
+	border-radius: 0px !important;
 }
 
 .item {
 	background: rgba(1, 1, 1, 0.5) !important;
 	border: none !important;
-	border-radius: 25px !important
+	border-radius: 0px !important
 }
 
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
@@ -395,7 +395,7 @@ a:hover {
 .smallbox {
 	float: left;
 	background: rgba(1, 1, 1, 0.5);
-	color: #F3F3F3;
+	color: #000000;
 	padding: 10px;
 	border: none;
 	border-radius: 25px;
@@ -408,7 +408,7 @@ a:hover {
 .mediumbox {
 	float: left;
 	background: rgba(1, 1, 1, 0.5);
-	color: #F3F3F3;
+	color: #000000;
 	padding: 10px;
 	border: none;
 	border-radius: 25px;
@@ -421,7 +421,7 @@ a:hover {
 .largebox {
 	float: left;
 	background: rgba(1, 1, 1, 0.5);
-	color: #F3F3F3;
+	color: #000000;
 	padding: 10px;
 	border: none;
 	border-radius: 25px;
@@ -439,10 +439,10 @@ a:hover {
 	color: #000000;
 	padding: 10px;
 	border: none;
-	border-radius: 25px;
+	border-radius: 0px;
 	margin: 10px;
 	height: 50px;
-	width: 28.4%;S
+	width: 28.4%;
 	overflow: auto;
         transition: 3s
 }
@@ -458,7 +458,7 @@ a:hover {
 	color: #000000;
 	padding: 10px;
 	border: none;
-	border-radius: 25px;
+	border-radius: 0px;
 	margin: 10px;
 	height: 50px;
 	width: 43.8%;
@@ -477,7 +477,7 @@ a:hover {
 	color: #000000;
 	padding: 10px;
 	border: none;
-	border-radius: 25px;
+	border-radius: 0px;
 	margin: 10px;
 	height: 150px;
 	width: 90%;
@@ -510,7 +510,7 @@ a:hover {
 
 ::-webkit-scrollbar-thumb {
 	background: #000000;
-	border-radius: 25px
+	border-radius: 0px
 }
 
 
@@ -581,7 +581,7 @@ a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px) {
-	display: block;
+	display: block !important;
 }
 
 @media only screen and (min-width: 1200px) {
