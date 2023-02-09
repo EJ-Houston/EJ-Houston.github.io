@@ -266,8 +266,8 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: rgba(155, 226, 242, 0.6) !important;
-        color: #2e2a2b;
+	background: #435944 !important;
+        color: #17261E;
 	border-radius: 0px
 }
 
