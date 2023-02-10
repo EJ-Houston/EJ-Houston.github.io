@@ -217,7 +217,7 @@ h3 {
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: rgba(1, 1, 1, 0.5) !important;
+	background: #435944 !important;
         color: #F3F3F3 !important;
 	border: none !important
 }
@@ -266,9 +266,9 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: rgba(155, 226, 242, 0.6) !important;
+	background: #64734D !important;
         color: #2e2a2b;
-	border-radius: 25px
+	border-radius: 6px
 }
 
 
@@ -276,7 +276,7 @@ td.bottom a {
 
 .inner-table .right {
 	background: none;
-	border-radius: 25px !important
+	border-radius: 6px !important
 }
 
 td.right {
@@ -330,7 +330,7 @@ textarea {
 	background: rgba(1, 1, 1, 0.5) !important;
 	border: none !important;
 	border-radius: 0px !important;
-	color: #000000 !important;
+	color: #F3F3F3 !important;
 	box-shadow: none !important;
 	text-shadow: none !important
 }
@@ -338,15 +338,17 @@ textarea {
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000  !important;
+	background: #64734D80 !important;
+	color: #17261E !important;
 	border-radius: 0px !important;
 }
 
 .item {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border: none !important;
-	border-radius: 0px !important
+	background: #f3f3F3 !important;
+	border-style: solid;
+        border-width: 2px;
+        border-color: #435944;
+	border-radius: 6px !important;
 }
 
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
@@ -356,7 +358,7 @@ div.slider.round /* Background */ {
 }
 
 div.slider.round::before /* Circle Part */ {
-	background: #000000 !important
+	background: #435944 !important
 }
 
 /* Copyright, Terms of Service, CoC, etc. */
@@ -548,33 +550,40 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* CAVE / MOUND IMAGES */
 
-div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('https://imgur.com/saDhlRz.gif');
-}
+/* Unsort, Preg, Pride */
 
-a[href$="340759"]>div.cave-grid>img {
-	content: url('https://imgur.com/1F9nmwj.gif')
-}
 
-a[href$="create-cave.php"]>div.cave-grid>img /* Empty Cave Slot */ {
-	content: url('https://imgur.com/1F9nmwj.gif')
-}
+  div.cave-grid>img /* Pregnant Lionesses */ {
+  	content: url("https://imgur.com/uUluq2l.gif")
+  }
+  
+  a[href$="lionoverview.php?id=414436"]>div.cave-grid>img /* Pride Overview */ {
+  	content: url('https://imgur.com/uUluq2l.gif')
+  }
+  
+  a[href$="unsorted.php?id=414436"]>div.cave-grid>img /* Unsorted */ {
+  	content: url('https://imgur.com/uUluq2l.gif')
+  }
 
-a[href$="lionoverview.php?id=414436"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('https://imgur.com/M6EOhjY.gif')
-}
+/* CAVES */
 
-a[href$="unsorted.php?id=414436"]>div.cave-grid>img /* Unsorted */ {
-	content: url('https://imgur.com/fc9igfT.gif')
-}
-
-.mound-grid img /* Mound(s) */ {
-	background: url("");
-	width: 0;
-	height: 0;
-	padding-top: 80px;
-	padding-right: 130px
-}
+  a[href$="340759"]>div.cave-grid>img {
+  	content: url('https://64.media.tumblr.com/b2b6707d6070eb17fe0709e0d7dd06f1/7903b2979555ba1b-45/s640x960/e88ee98bc0a8a51c4a584b0d6523d645437f3ccd.gif')
+  }
+  
+  a[href$="create-cave.php"]>div.cave-grid>img /* Empty Cave Slot */ {
+  	content: url('https://64.media.tumblr.com/b2b6707d6070eb17fe0709e0d7dd06f1/7903b2979555ba1b-45/s640x960/e88ee98bc0a8a51c4a584b0d6523d645437f3ccd.gif')
+  }
+  
+/* MOUNDS */
+  
+  .mound-grid img /* Mound(s) */ {
+  	background: url("");
+  	width: 0;
+  	height: 0;
+  	padding-top: 80px;
+  	padding-right: 130px
+  }
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
