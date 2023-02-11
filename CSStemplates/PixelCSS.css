@@ -43,7 +43,7 @@ div {
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(1, 1, 1, 0.5);
+	background: #D96F6F99 !important;
 	border: none;
 	box-shadow: none;
 	border-radius: 6px
@@ -62,28 +62,31 @@ div {
 }
 
 .scrollyright {
-float: right;
-        float: right;
-    height: auto;
+    float: right;
+    height: 400px !important;
     width: 400px;
     background: #F5D0C099;
     border-radius: 10px;
     border: 2px solid #EDEAE3 !important;
     color: black;
-    margin: auto;
+    margin: 50px;
     margin-bottom: 10px;
+    padding: 25px;
+    top: 50%;
 }
 
 .scrollyleft {
     float: left;
-    height: auto;
+    height: 400px !important;
     width: 400px;
     background: #F5D0C099;
     border-radius: 10px;
     border: 2px solid #EDEAE3 !important;
     color: black;
-    margin: auto;
+    margin: 50px;
     margin-bottom: 10px;
+    padding: 25px;
+    top: 50%;
 }
 
 
@@ -178,6 +181,10 @@ button.button, button.button:hover {
 	border-radius: 25px;
         text-shadow: none !important;
 	color: #000000 !important
+}
+
+.center-b {
+        color: #ffffff !important;
 }
 
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
