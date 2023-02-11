@@ -39,6 +39,8 @@ div {
     display: block;
 }
 
+
+
 /* MAIN PANEL */
 
 /* RIGHT SIDE */
@@ -204,7 +206,7 @@ h1 {
 	color: #F3F3F3;
 	font-size: 90px;
 	text-align: center;
-        font-family: 'Francois One', sans-serif;
+        font-family: 'McLaren', cursive;
 }
 
 
@@ -220,14 +222,14 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #F3F3F3 !important;
+	color: #ffffff !important;
 	font-size: 14px !important
 }
 
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #838C7D !important;
+	color: #ffffff !important;
         font-size: 26px !important;
         font-family: 'FONT NAME'
 }
@@ -249,15 +251,20 @@ h3 {
 }
 
 /* ENERGY BAR COLOR */
+
 .progress-bar {
-	background: rgba(1, 1, 1, 0.5);
+	background-image: url('https://imgur.com/UNn6XQX.gif')!important;
 	color: #F3F3F3 !important;
-	border-radius: 25px !important
+	border-radius: 25px !important;
+        height: 100% !important;
+        width: auto;
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #F3F3F3 !important
+	color: #ffffff !important;
+        text-shadow: 1px 1px 1px #000000 !important;
+        font-weight: bold;
 }
 
 /* CHAT */
