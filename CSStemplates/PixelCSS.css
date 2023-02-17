@@ -635,6 +635,14 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
   a[href$="340759"]>div.cave-grid>img {
   	content: url('https://64.media.tumblr.com/b2b6707d6070eb17fe0709e0d7dd06f1/7903b2979555ba1b-45/s640x960/e88ee98bc0a8a51c4a584b0d6523d645437f3ccd.gif')
   }
+
+a[href$="352756"]>div.cave-grid>img {
+  	content: url('https://64.media.tumblr.com/b2b6707d6070eb17fe0709e0d7dd06f1/7903b2979555ba1b-45/s640x960/e88ee98bc0a8a51c4a584b0d6523d645437f3ccd.gif')
+  }
+
+a[href$="351831"]>div.cave-grid>img {
+  	content: url('https://64.media.tumblr.com/b2b6707d6070eb17fe0709e0d7dd06f1/7903b2979555ba1b-45/s640x960/e88ee98bc0a8a51c4a584b0d6523d645437f3ccd.gif')
+  }
   
   a[href$="create-cave.php"]>div.cave-grid>img /* Empty Cave Slot */ {
   	content: url('https://64.media.tumblr.com/b2b6707d6070eb17fe0709e0d7dd06f1/7903b2979555ba1b-45/s640x960/e88ee98bc0a8a51c4a584b0d6523d645437f3ccd.gif')
@@ -643,9 +651,9 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 /* MOUNDS */
   
   .mound-grid img /* Mound(s) */ {
-  	background: url("");
-  	width: 0;
-  	height: 0;
+  	background-image: url("https://imgur.com/eA1LJbT.gif");
+  	width: 180px;
+  	height: auto;
   	padding-top: 80px;
   	padding-right: 130px
   }
