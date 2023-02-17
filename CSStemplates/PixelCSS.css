@@ -15,10 +15,6 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 /* Color Theme Swatches in Hex */
 .whiteish{ color: #EDEAE3; }
-.light-pink { color: #F5D0C0; }
-.dark-pink { color: #EE9E97; }
-.darker-pink { color: #D96F6F; }
-.darkest-pink { color: #BF3B3B; }
 .light-blue { color: #45B4AE; }
 .dark-blue { color: #2A9DA0; }
 .darker-blue { color: #185661; }
@@ -43,9 +39,15 @@ div {
 
 /* MAIN PANEL */
 
+/* Event Caption */
+
+.center.b {
+  color: #185661 !important;
+}
+
 /* RIGHT SIDE */
 .container.main {
-	background: #D96F6F99 !important;
+	background: #5D8E8E90 !important;
 	border: none;
 	box-shadow: none;
 	border-radius: 6px
@@ -67,10 +69,10 @@ div {
     float: right;
     height: 400px !important;
     width: 400px;
-    background: #F5D0C099;
+    background: #18566190 !important;
     border-radius: 10px;
     border: 2px solid #EDEAE3 !important;
-    color: black;
+    color: #EDEAE3 !important;
     margin: 50px;
     margin-bottom: 10px;
     padding: 25px;
@@ -81,10 +83,10 @@ div {
     float: left;
     height: 400px !important;
     width: 400px;
-    background: #F5D0C099;
+    background: #18566190 !important;
     border-radius: 10px;
     border: 2px solid #EDEAE3 !important;
-    color: black;
+    color: #EDEAE3 !important;
     margin: 50px;
     margin-bottom: 10px;
     padding: 25px;
@@ -105,14 +107,14 @@ div {
 
 .navbar {
 	background: #EDEAE3;
-	color: #002529;
+	color: #5D8E8E;
 	border-radius: 10px 10px 0px 0px;
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #EE9E97 !important
+	color: #5D8E8E !important
 }
 
 /* NAVBAR BUTTON HOVER */
@@ -120,7 +122,7 @@ div {
 .navbar li a:hover {
 	background: rgba(1, 1, 1, 0) !important;
 	border-bottom: none;
-	color: #D96F6F !important;
+	color: #45B4AE !important;
 	border-radius: 25px
 }
 
@@ -135,7 +137,7 @@ div {
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #2A9DA0;
+	color: #45B4AE !important;
 }
 
 /* CSS CREDIT */
@@ -236,7 +238,7 @@ h3 {
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(1, 1, 1, 0.5) !important;
+	background: #18566190 !important;
 	box-shadow: none !important;
 	border: none !important;
 	color: #F3F3F3 !important;
@@ -245,7 +247,7 @@ h3 {
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(1, 1, 1, 0.5);
+	background: #18566190 !important;;
 	color: #F3F3F3 !important;
 	border-radius: 25px !important
 }
@@ -258,6 +260,18 @@ h3 {
 	border-radius: 25px !important;
         height: 100% !important;
         width: auto;
+        background-color: #00252950 !important; 
+}
+ .progress-bar-success {
+    background-color: #00252950 !important;
+}
+
+.progress-bar-danger {
+    background-color: #00252950 !important;
+}
+
+.progress-bar-warning {
+    background-color: #00252950 !important;
 }
 
 /* ENERGY BAR TEXT */
@@ -355,7 +369,8 @@ td.right {
 
 /* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
 
-.cave-grid{
+.cave-grid,
+.mound-grid {
 	background: rgba(1, 1, 1, 0.5);
 	border: none !important;
 	border-radius: 0px !important
@@ -634,44 +649,20 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
   a[href$="340759"]>div.cave-grid>img {
   	content: url('https://64.media.tumblr.com/b2b6707d6070eb17fe0709e0d7dd06f1/7903b2979555ba1b-45/s640x960/e88ee98bc0a8a51c4a584b0d6523d645437f3ccd.gif')
   }
-
-a[href$="352756"]>div.cave-grid>img {
-  	content: url('https://64.media.tumblr.com/b2b6707d6070eb17fe0709e0d7dd06f1/7903b2979555ba1b-45/s640x960/e88ee98bc0a8a51c4a584b0d6523d645437f3ccd.gif')
-  }
-
-a[href$="351831"]>div.cave-grid>img {
-  	content: url('https://64.media.tumblr.com/b2b6707d6070eb17fe0709e0d7dd06f1/7903b2979555ba1b-45/s640x960/e88ee98bc0a8a51c4a584b0d6523d645437f3ccd.gif')
-  }
   
   a[href$="create-cave.php"]>div.cave-grid>img /* Empty Cave Slot */ {
   	content: url('https://64.media.tumblr.com/b2b6707d6070eb17fe0709e0d7dd06f1/7903b2979555ba1b-45/s640x960/e88ee98bc0a8a51c4a584b0d6523d645437f3ccd.gif')
   }
   
 /* MOUNDS */
-
-
-.mound-grid img {
-    display: block;    
-    width: 160px !important;
-    height: auto !important;
-    padding-right: 0px !important;
-    padding-top: 0px !important;
-    padding: 3px;
-    background: url("") !important;
-}
-
-a[href$="178207"]>div.mound-grid>img {
-  	content: url('https://imgur.com/eA1LJbT.gif')
+  
+  .mound-grid img /* Mound(s) */ {
+  	background: url("");
+  	width: 0;
+  	height: 0;
+  	padding-top: 80px;
+  	padding-right: 130px
   }
-
-a[href$="create-mound.php"]>div.mound-grid>img /* Empty Mound Slot */ {
-  	content: url('https://imgur.com/eA1LJbT.gif'); 
-
--webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-}
-
-
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
