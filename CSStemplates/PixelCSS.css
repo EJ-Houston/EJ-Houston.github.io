@@ -355,8 +355,7 @@ td.right {
 
 /* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
 
-.cave-grid,
-.mound-grid {
+.cave-grid{
 	background: rgba(1, 1, 1, 0.5);
 	border: none !important;
 	border-radius: 0px !important
@@ -649,14 +648,30 @@ a[href$="351831"]>div.cave-grid>img {
   }
   
 /* MOUNDS */
-  
-  .mound-grid img /* Mound(s) */ {
-  	background-image: url("https://imgur.com/eA1LJbT.gif");
-  	width: 180px;
-  	height: auto;
-  	padding-top: 80px;
-  	padding-right: 130px
+
+
+.mound-grid img {
+    display: block;    
+    width: 160px !important;
+    height: auto !important;
+    padding-right: 0px !important;
+    padding-top: 0px !important;
+    padding: 3px;
+    background: url("") !important;
+}
+
+a[href$="178207"]>div.mound-grid>img {
+  	content: url('https://imgur.com/eA1LJbT.gif')
   }
+
+a[href$="create-mound.php"]>div.mound-grid>img /* Empty Mound Slot */ {
+  	content: url('https://imgur.com/eA1LJbT.gif'); 
+
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
