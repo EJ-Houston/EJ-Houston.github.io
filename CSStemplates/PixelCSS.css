@@ -1,8 +1,8 @@
 /*
-ORIGINAL CSS template by Katie (#106445).
-
-Modified heavily, but credit is definitely still due! 
-If you'd like to copy this css to use for your own den, you have full permission!
+Free to use CSS template by Katie (#106445).
+This code may be altered, edited, or re-uploaded. 
+This template may be used to create paid codes (pre-mades and commissions).
+Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
 */
 
 /* FONT (From Google Fonts) */
@@ -122,7 +122,7 @@ div {
 .navbar li a:hover {
 	background: rgba(1, 1, 1, 0) !important;
 	border-bottom: none;
-	color: #45B4AE !important;
+	color: #95B3A3 !important;
 	border-radius: 25px
 }
 
@@ -137,7 +137,11 @@ div {
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #45B4AE !important;
+	color: #95B3A3 !important;
+}
+
+.breadcrumb .hover {
+	color: #95B3A3 !important;
 }
 
 /* CSS CREDIT */
@@ -146,7 +150,7 @@ div {
         content: "Template by Katie (#106445)";
         color: #45B4AE;
         position: absolute;
-        right: 13%; /* (This may need adjusting) */
+        right: 11.5%; /* (This may need adjusting) */
         z-index: 100
     }
 
@@ -177,6 +181,10 @@ input.floatright, input.floatright:hover {
 	color: #185661 !important;    
 }
 
+input.floatright:hover {
+  color: #95B3A3 !important;  
+}
+
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
@@ -187,16 +195,13 @@ button.button, button.button:hover {
 	color: #000000 !important
 }
 
-.center-b {
-        color: #ffffff !important;
-}
 
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
 
 .alert,
 .alert-warning,
-.alert-danger {
-	background: rgba(1, 1, 1, 0.5) !important;
+.alert-danger, .alert-success {
+	background: #18566190 !important;
 	border: none;
 	color: #F3F3F3;
 	border-radius: 25px !important
@@ -205,10 +210,10 @@ button.button, button.button:hover {
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #F3F3F3;
+	color: #EDEAE3 !important;
 	font-size: 90px;
 	text-align: center;
-        font-family: 'McLaren', cursive;
+        font-family: 'McLaren', cursive !important;
 }
 
 
@@ -624,7 +629,7 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('LOGO REPLACER URL')
+	content: url('https://imgur.com/lKVU7mI.png') !important
 }
 
 /* CAVE / MOUND IMAGES */
